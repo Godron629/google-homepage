@@ -11,10 +11,11 @@ body {
 }
 
 #nav {
-	float: right;
+	right: 0;
 	width: 28%;
 	height: 25px;
 	/*border: 1px solid black;*/
+	position: absolute;
 }
 
 #nav ul {
@@ -81,7 +82,7 @@ li a:hover {
 	width: 500px;
 	position: relative;
 	/*border: 1px solid black;*/
-	top: 30vh;
+	top: 20vh;
 	margin: 0 auto;
 }
 
