@@ -28,3 +28,19 @@ li a {
 li a:hover {
 	text-decoration: underline;
 }
+
+#app_icon {
+	height: 30px;
+	width: 30px;
+	opacity: .55;
+	position: relative;
+	top: -6px;
+}
+
+#app_icon:hover {
+	opacity: 1;
+}
+
+#signin {
+	
+}
