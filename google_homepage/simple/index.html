@@ -1,37 +1,54 @@
-<!DOCTYPE html>
 <html>
 <head>
+	<title>Gideon</title>
 	<meta charset="utf-8">
-	<title>Gideon's Google</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<div id="header">
-		<div id="nav">
+		<div id="icons">
 			<ul>
 				<li><a href="#">Gmail</a></li>
 				<li><a href="#">Images</a></li>
-				<li><a href="#"><img id="app_icon"src="images/google-app-icon.png"></a></li>
-				<li><a href="#"><div id="signin"><p>Sign in</p></div></a></li>
+				<li><img id ="app_icon" src="app-icon.png"></li>
+				<li><a href="#"><div id="sign_in">Sign In</div></a></li>
 			</ul>
 		</div>
 	</div>
-	<div id="main">
+	<div id="content">
 		<div id="search">
 			<div id="logo">
-				<img id="logo_img" src="images/google-logo.png">
+				<a href="#"><img src="google-logo.png" width="272px"></a>
 			</div>
-			<form method="#" action="#">
-				<input id="searchbar" type="text" name="search">
-				<center>
-					<input class="button" type="submit" value="Search">
-					<input class="button" type="submit" value="I'm Feeling Lucky">
-				</center>
- 			</form>	
- 			<center>
- 				<p>Google.ca is offered in: <a href="#">Français</p>
- 			</center>
+			<div id="searchbox">
+				<form>
+					<div id="search_text">
+						<input type="text">
+					</div>
+					<div id="search_buttons">
+						<input type="submit" value="Search">
+						<input type="submit" value="I'm Feeling Lucky">
+					</div>
+				</form>
+				<p id="languages">Google.ca offered in: <a href="#">Français</a></p>
+			</div>
 		</div>
-	</div>	
+	</div>
+	<div id="footer">
+		<div id="left">
+			<ul>
+				<li><a href="#">Advertising</a></li>
+				<li><a href="#">Business</a></li>
+				<li><a href="#">About</a></li>
+			</ul>
+		</div>
+		<div id="right">
+			<ul>
+				<li><a href="#">Privacy</a></li>
+				<li><a href="#">Terms</a></li>
+				<li><a href="#">Settings</a></li>
+			</li>
+		</div>
+	</div>
 </body>
 </html>
